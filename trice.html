@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="trice.css">
+	<script src="trice.js"></script>
+
+
+</head>
+<body>    
+    <div class="calculator">
+    <div id="result"></div>
+    <button onclick="func('')" class="operator">(</button>
+    <button onclick="func('')" class="operator">)</button>
+    <button onclick="func('/')" class="operator">/</button>
+    <button onclick="funcvide()"class="clear">C</button>
+    <button onclick="func('1')">1</button>
+    <button onclick="func('2')">2</button>
+    <button onclick="func('3')">3</button>
+    <button class="operator" onclick="func('*')">*</button>
+    <button onclick="func('4')">4</button>
+    <button onclick="func('5')">5</button>
+    <button onclick="func('6')">6</button>
+    <button class="operator" onclick="func('+')">+</button>
+    <button onclick="func('7')">7</button>
+    <button onclick="func('8')">8</button>
+    <button onclick="func('9')">9</button>
+    <button class="operator" onclick="func('-')">-</button>
+    <button onclick="func('0')">0</button>
+    <button onclick="func('.')">,</button>
+    <button class="equal" onclick="result(document.getElementById('result').textContent)">=</button>
+    <button class="supp" onclick="supp(document.getElementById('result').textContent)">X</button>
+    </div>
+</body> 
