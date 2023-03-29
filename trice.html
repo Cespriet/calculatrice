@@ -12,25 +12,27 @@
     <div class="calculator">
     <div id="calcul"></div>
     <div id="result"></div>
-    <button onclick="func('')" class="operator">(</button>
-    <button onclick="func('')" class="operator">)</button>
-    <button onclick="func('/')" class="operator">/</button>
-    <button onclick="funcvide()"class="clear">C</button>
-    <button onclick="func('1')">1</button>
-    <button onclick="func('2')">2</button>
-    <button onclick="func('3')">3</button>
-    <button class="operator" onclick="func('*')">*</button>
-    <button onclick="func('4')">4</button>
-    <button onclick="func('5')">5</button>
-    <button onclick="func('6')">6</button>
-    <button class="operator" onclick="func('+')">+</button>
-    <button onclick="func('7')">7</button>
-    <button onclick="func('8')">8</button>
-    <button onclick="func('9')">9</button>
-    <button class="operator" onclick="func('-')">-</button>
-    <button onclick="func('0')">0</button>
-    <button onclick="func('.')">,</button>
-    <button class="equal" onclick="result(document.getElementById('result').textContent)">=</button>
-    <button class="supp" onclick="supp(document.getElementById('result').textContent)">X</button>
+    <button onclick="baseCalculator.func('')" class="operator">(</button>
+    <button onclick="baseCalculator.func('')" class="operator">)</button>
+    <button onclick="baseCalculator.func('/')" class="operator">/</button>
+    <button onclick="baseCalculator.funcvide()"class="clear">C</button>
+    <button onclick="baseCalculator.func('1')">1</button>
+    <button onclick="baseCalculator.func('2')">2</button>
+    <button onclick="baseCalculator.func('3')">3</button>
+    <button class="operator" onclick="baseCalculator.func('*')">*</button>
+    <button onclick="baseCalculator.func('4')">4</button>
+    <button onclick="baseCalculator.func('5')">5</button>
+    <button onclick="baseCalculator.func('6')">6</button>
+    <button class="operator" onclick="baseCalculator.func('+')">+</button>
+    <button onclick="baseCalculator.func('7')">7</button>
+    <button onclick="baseCalculator.func('8')">8</button>
+    <button onclick="baseCalculator.func('9')">9</button>
+    <button class="operator" onclick="baseCalculator.func('-')">-</button>
+    <button onclick="baseCalculator.func('0')">0</button>
+    <button onclick="baseCalculator.func('.')">,</button>
+    <button class="equal" onclick="baseCalculator.result(document.getElementById('result').textContent)">=</button>
+    <button class="supp" onclick="baseCalculator.supp(document.getElementById('result').textContent)">X</button>
     </div>
 </body> 
+
+
