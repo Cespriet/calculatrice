@@ -5,14 +5,17 @@ function func(i){
 
 function funcvide(){
     document.getElementById("result").textContent=""
-    
+    document.getElementById("calcul").textContent=""
 }
 
 function result(a){
     console.log(a)
     b=eval(a)
+    document.getElementById("calcul").textContent=a
+    document.getElementById("calcul").textContent+="="
     document.getElementById("result").textContent=b
     console.log(b)
+
 }
 
 function supp(a){

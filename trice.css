@@ -14,6 +14,18 @@
         display: flex;
         flex-wrap: wrap;
       }
+      #calcul {
+        width: 140px;
+        height: 20px;
+        font-size: 18px;
+        
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      }
       #result {
         width: 140px;
         height: 30px;
@@ -71,3 +83,5 @@
       .supp:hover{
         background-color: darkblue;
       }
+
+
